@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    background-color: #eee;
+    color: #434344;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.container {
+    background-color: #fff;
+    padding: 10px;
+    max-width: 1000px;
+}
+
+.header {
+    color: #9f9c9c;
+    text-transform: uppercase;
+    border-bottom: 2px solid #b0e0ea;
+    padding: 20px 0;
+    /* ADD Flexbox styling here: */
+    /**/
+}
+
+nav {
+    margin-top: 15px;
+    /* ADD Flexbox styling here: */
+    /**/
+}
+
+.header nav ul {
+    /* ADD Flexbox styling here: */
+    /**/
+}
+
+.header button {
+    border: none;
+    padding: 8px 25px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 1.25rem;
+    background-color: #51bb7b;
+}
+
+.logo {
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    color: #50c6db;
+}
+
+.hero {
+    background-color: #d5c9e2;
+    min-height: 150px;
+    background-image: url("http://abbeyjfitzgerald.com/wp-content/uploads/2017/06/combined-layout-hero-1.jpg");
+}
+
+.sidebar {
+    padding: 20px;
+    border-top: 3px solid #693f7e;
+    background-color: #f9f9f9;
+}
+
+.sidebar h3 {
+    margin-top: .75rem;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin-top: 1rem;
+    font-size: .75rem;
+}
+
+.sidebar ul>li {
+    padding: .25rem 0;
+}
+
+.sidebar img {
+    max-width: 100%;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+.main h2 {
+    font-size: 32px;
+    margin-bottom: 1rem;
+    color: #50c6db;
+}
+
+.main p {
+    font-size: 1rem;
+    margin-bottom: .75rem;
+}
+
+.main img {
+    width: 100%;
+}
+
+.content-block-info {
+    margin-bottom: 25px;
+}
+
+.extra {
+    padding: 1rem;
+    border: 1px solid #ececec;
+    border-top: 3px solid #693f7e;
+}
+
+.extra h3 {
+    font-weight: 500;
+    margin-bottom: .5rem;
+    flex: 1 0 auto;
+}
+
+.extra p {
+    font-size: .75rem;
+    margin-bottom: .75rem;
+}
+
+.extra button {
+    background-color: white;
+    border: 2px solid #50c6db;
+    color: #50c6db;
+    padding: 0.5rem 1.5rem;
+}
+
+.related-images {
+    /* ADD GRID STYLING HERE: */
+    /**/
+}
+
+.related-images img {
+    max-width: 100%;
+}
+
+.related-posts {
+    padding: 0 2rem;
+    margin: 20px 0;
+}
+
+.related-posts h4 {
+    margin-bottom: .5rem;
+    padding-bottom: .5rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #ececec;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #9f9c9c;
+}
+
+footer p {
+    color: #434344;
+    font-size: 12px;
+    padding: 10px;
+}
+
+
+/* ADD MEDIA QUEIRES HERE: */
